@@ -1,0 +1,23 @@
+import numpy as np
+arr1=np.array([[1,2],[21,23]])
+arr1*2
+arr2=np.array([[1,2,3],[21,23,33]])
+arr2+5
+arr3=np.array([[1,2,3,6],[21,23,33,40]])
+arr3-10
+arr4=np.array([[1,2,3,6,7],[21,23,33,40,15]])
+arr4/2
+arr5=np.array([[1,2,3,6,7,9],[21,23,33,40,15,20]])
+np.sqrt(arr5)
+a1=np.array([[1,2],[21,23]])
+a1
+b1=np.array([[3,4],[33,34]])
+b1
+np.matmul(a1,b1)
+a2=np.array([[1,2,3],[21,23,33],[3,6,9]])
+a2
+b2=np.array([[3,4,6],[33,34,39],[1,5,7]])
+b2
+np.dot(a2,b2)
+b2.T
+np.dot(a2,b2.T)
